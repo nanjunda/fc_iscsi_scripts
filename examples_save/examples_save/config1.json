@@ -1,0 +1,16 @@
+{
+	"Fabric" : [
+		{ "switchName" : "Server_6510",	"mgmtIP" : "10.26.3.194", "userName" : "admin", "userPassword" : "password"},
+		{ "switchName" : "Storage_6510", "mgmtIP" : "10.26.2.207", "userName" : "admin", "userPassword" : "password"}
+	],
+	"flows" : [
+		{ "name1" : "flowcase1", "name2" : "flowcase3" },
+		{ "name1" : "flowcase2", "name2" : "flowcase4" }
+	],
+	"sizes" : [
+		{"size1" : "1200", "size2" : "1400", "size3" : "1600", "size4" : "1800", "size5" : "1900", "size6" : "2000"}
+	],
+	"commands" : [
+		{"cmd1" : "flow --create FN -feature monitor,generator -bidir -noactivate", "cmd2" : "flow --control FN -feature monitor,generator -size SZ", "cmd3" : "flow --activate FN"}
+	]
+}

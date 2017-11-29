@@ -1,0 +1,48 @@
+#
+# Python script to calculate average of CPU perfmon data in  csv file
+#
+import csv
+import sys
+import time
+import numpy as np
+
+from math import sqrt
+
+file_name = sys.argv[1]
+
+sys.stdout.write("Time,CPU % Idle Time,CPU % Intr Time,CPU % Privileged Time,CPU % Proc Time,CPU % User Time")
+
+with open(file_name) as csvfile:
+
+
+    time_stamp = "none"
+    av_cpu_idle_time = 0.0
+    av_cpu_intr_time = 0.0
+    av_cpu_priv_time = 0.0
+    av_cpu_proc_time = 0.0
+    av_cpu_user_time = 0.0
+
+    readCSV = csv.reader(csvfile, delimiter=',')
+    next(readCSV)
+    next(readCSV)
+    no_rows = 0
+    for row in readCSV :
+       i = 0
+       while (i < len(row)):
+          sys.stdout.write(str(row[i]))
+          sys.stdout.write(", ")
+          i = i + 1
+       sys.stdout.write("\n")
+       time_stamp = str(row[0])
+       av_cpu_idle_time  += float(row[1])
+       av_cpu_intr_time  += float(row[2])
+       av_cpu_priv_time  += float(row[3])
+       av_cpu_proc_time  += float(row[4])
+       av_cpu_user_time  += float(row[5])
+       no_rows += 1
+    av_cpu_idle_time = av_cpu_idle_time/no_rows
+    av_cpu_intr_time = av_cpu_intr_time/no_rows
+    av_cpu_priv_time = av_cpu_priv_time/no_rows
+    av_cpu_proc_time = av_cpu_proc_time/no_rows
+    av_cpu_user_time = av_cpu_user_time/no_rows
+    print ("%s, %.10f, %.10f, %.10f, %.10f, %.10f\n" % (time_stamp, av_cpu_idle_time, av_cpu_intr_time, av_cpu_priv_time, av_cpu_proc_time, av_cpu_user_time ))

@@ -1,0 +1,12 @@
+echo "3 k 57.82 100 / 10 * p" | dc
+echo "3 k 43.86 100 / 10 * p" | dc
+echo "3 k 42.93 100 / 10 * p" | dc
+echo "3 k 47.51 100 / 10 * p" | dc
+echo "3 k 50.72 100 / 10 * p" | dc
+echo "3 k 53.73 100 / 10 * p" | dc
+echo "3 k 54.04 100 / 10 * p" | dc
+echo "3 k 53.78 100 / 10 * p" | dc
+echo "3 k 52.58 100 / 10 * p" | dc
+echo "3 k 48.57 100 / 10 * p" | dc
+echo "3 k 50.62 100 / 10 * p" | dc
+echo "3 k 48.05 100 / 40 * p" | dc

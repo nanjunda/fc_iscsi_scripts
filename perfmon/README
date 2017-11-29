@@ -1,0 +1,10 @@
+This directory has python scripts and shell scripts to manipulate perfmon/logman data
+Here is brief description of scripts:
+
+calc_average_cpu_perf.py: Python script to select CPU spefic data from perfmon data, calculate the average and save it in a file called *_CPU_Info.csv file. 
+
+get_average_cpu_stats.py: This python script takes *_CPU_Info.csv file as input. Using the information available as a part of
+the file name, it will add more information to header and data row to CPU stats available in *CPU_Info.csv file and creates a
+file called *CPU_Av_Stats.cpu
+
+process_perfmon_csv.sh: Driver shell script to run above scripts.

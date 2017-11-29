@@ -1,0 +1,9 @@
+To get CPU info from .prf file, do the following:
+
+python process_prf.py | sed 's/^\[//g;s/\],/,/g;s/[AM][a-z]*\s%\s[A-Za-z]*=//g;s/[AM][a-z]*\s%\s[A-Za-z]*\sOnly=//g;s/, $//g'|grep -v '^Err' | less
+
+
+SINGLE LINE TO PROCESS PRF FILES:
+
+find -name \*.prf | xargs -n 1 python ../../../../scripts/prf_cpu_stats/process_prf.py | sed 's/^\[//g;s/\],/,/g;s/[AM][a-z]*\s%\s[A-Za-z]*=//g;s/[AM][a-z]*\s%\s[A-Za-z]*\sOnly=//g;s/, $//g'|grep -v '^Err'  >x.csv
+

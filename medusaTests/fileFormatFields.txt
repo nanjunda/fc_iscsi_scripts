@@ -1,0 +1,18 @@
+1 - TS
+2 - Q Depth(Q)
+3 - Read percentage(R)
+4 - Write percentage(W)
+5 - Buffer Size (B)
+6 - Random percentage (X)
+7 - Sequential Percentage (F)
+8 - Runtime (D)
+9 - technology (iSCSI/FC)
+10 - Phase (which phase)
+11 - test type (Normal/congestion)
+
+
+
+
+
+
+
