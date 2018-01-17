@@ -1,0 +1,27 @@
+1. Use generateMedusaScripts.py to generate the shell scripts as follows. The following is givin various parameters.
+Examples:
+	python generateMedusaScripts.py iSCSI Phase2 Normal ../config/targets.dat 100 0 240 12p | grep -v "R0_W100" >X100_MINUS_R0_W100_Run1
+	python generateMedusaScripts.py iSCSI Phase2 Normal ../config/targets.dat 0 100 240 12p | grep  "R0_W100" >X100_ONLY_R0_W100_Run1
+	python generateMedusaScripts.py iSCSI Phase2 Normal ../config/targets.dat 0 100 240 12p | grep  "R100_W0" >F100_ONLY_R100_W0_Run1
+	python generateMedusaScripts.py iSCSI Phase2 Normal ../config/targets.dat 0 100 240 12p | grep "R100_W0"
+	python generateMedusaScripts.py iSCSI Phase2 Normal ../config/targets.dat 0 100 240 12p | grep "R100_W0"
+	python generateMedusaScripts.py iSCSI Phase2 Normal ../config/targets.dat 0 100 240 12p | grep "R100_W0" >F100_SEQUENTIAL_R100_W0
+	python generateMedusaScripts.py iSCSI Phase2 Normal ../config/targets.dat 0 100 240 12p | grep "R100_W0" >F100_SEQUENTIAL_R100_W0
+
+2. Take the generated script and run it on System Under Test
+Example:
+	sh F100_SEQUENTIAL_R100_W0
+	sh X100_ONLY_R0_W100_Run1
+
+3. Once the test run is complete, bring the results files to this PC which has access to ab systems
+
+4. Run "sh calcMeanStdDev.sh' to calculate std deviations, median, etc.
+
+5. Run "sh summarizeTestResults.sh"
+
+6. Optional Run: To see the summary results in log scale, use "python logVals.py <output of summarizeTestResults>"
+
+To get CPU info from .prf file, do the following:
+
+python process_prf.py | sed 's/^\[//g;s/\],/,/g;s/[AM][a-z]*\s%\s[A-Za-z]*=//g;s/[AM][a-z]*\s%\s[A-Za-z]*\sOnly=//g;s/, $//g'|grep -v '^Err' | less
+
