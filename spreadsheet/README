@@ -1,0 +1,7 @@
+generate_one_line_graph_per_chart.py: Used to generate the charts based on individual CSV files output by
+                                      "Medusa maim" command. Puts three charts in one sheet
+
+pd_pivot_gen4.py: Used to generate pivot table and then charts based on pivot table by using total_summary_io_cpu_stats.csv
+file output by summary script under medusascripts directory. This script expects "full" run (meaning all queue depths and all IO sizes. ref: sub_pd_pivot.py for partial set of values).
+
+sub_pd_pivot.py: planning to use this generate charts similar to pd_pivot_gen4.py script, but based on csv file that has subset of Quedue depth and IO size. Hence subset of values used full run. This is used json file as second argument to to provide subset of  read_perentage, queue depth. First argument is total_summary_io_cpu_stats.csv file output by process_perfmon script

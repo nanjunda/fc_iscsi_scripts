@@ -1,0 +1,1 @@
+python xx.py  | grep -v "^,0" | sed '{s/line,protocol,is,up,(connected),Input/lUP/g; s/line,protocol,is,down,(link,protocol,down)/lDOWN/g; s/of,line-rate,Output,//g; s:"Mbits/sec,"::g; s:,"packets/sec,"::g; s/,of,line-rate//g; s/,is//g; s/,,/,/g; s/"//g; s/TenGigabitEthernet/te/g; s/FortyGigabitEthernet/fo/g; s/,,/,/g }'
