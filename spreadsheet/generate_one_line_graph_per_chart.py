@@ -50,7 +50,7 @@ def add_line_chart(wb, ws, dict_array, x_axis_name, y_axis_name, start_cell):
 x_axis_name = []
 y_axis_name = []
 
-last_row = (int(sys.argv[1])/5) + 1
+last_row = (int(sys.argv[2])/5) + 1
 last_row_str = "$" + str(last_row)
 
 
