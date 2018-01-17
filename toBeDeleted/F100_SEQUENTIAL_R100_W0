@@ -1,0 +1,240 @@
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b512b -%100:r100,w0,x0,f100 -Q8 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q8_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q8_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q8_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q8_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b1k -%100:r100,w0,x0,f100 -Q8 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q8_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q8_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q8_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q8_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b2k -%100:r100,w0,x0,f100 -Q8 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q8_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q8_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q8_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q8_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b4k -%100:r100,w0,x0,f100 -Q8 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q8_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q8_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q8_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q8_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b8k -%100:r100,w0,x0,f100 -Q8 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q8_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q8_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q8_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q8_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b16k -%100:r100,w0,x0,f100 -Q8 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q8_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q8_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q8_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q8_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b32k -%100:r100,w0,x0,f100 -Q8 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q8_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q8_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q8_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q8_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b64k -%100:r100,w0,x0,f100 -Q8 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q8_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q8_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q8_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q8_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b128k -%100:r100,w0,x0,f100 -Q8 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q8_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q8_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q8_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q8_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b256k -%100:r100,w0,x0,f100 -Q8 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q8_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q8_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q8_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q8_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b512k -%100:r100,w0,x0,f100 -Q8 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q8_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q8_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q8_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q8_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b1m -%100:r100,w0,x0,f100 -Q8 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q8_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q8_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q8_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q8_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b512b -%100:r100,w0,x0,f100 -Q16 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q16_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q16_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q16_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q16_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b1k -%100:r100,w0,x0,f100 -Q16 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q16_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q16_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q16_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q16_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b2k -%100:r100,w0,x0,f100 -Q16 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q16_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q16_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q16_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q16_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b4k -%100:r100,w0,x0,f100 -Q16 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q16_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q16_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q16_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q16_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b8k -%100:r100,w0,x0,f100 -Q16 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q16_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q16_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q16_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q16_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b16k -%100:r100,w0,x0,f100 -Q16 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q16_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q16_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q16_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q16_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b32k -%100:r100,w0,x0,f100 -Q16 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q16_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q16_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q16_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q16_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b64k -%100:r100,w0,x0,f100 -Q16 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q16_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q16_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q16_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q16_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b128k -%100:r100,w0,x0,f100 -Q16 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q16_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q16_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q16_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q16_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b256k -%100:r100,w0,x0,f100 -Q16 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q16_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q16_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q16_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q16_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b512k -%100:r100,w0,x0,f100 -Q16 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q16_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q16_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q16_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q16_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b1m -%100:r100,w0,x0,f100 -Q16 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q16_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q16_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q16_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q16_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b512b -%100:r100,w0,x0,f100 -Q32 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q32_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q32_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q32_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q32_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b1k -%100:r100,w0,x0,f100 -Q32 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q32_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q32_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q32_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q32_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b2k -%100:r100,w0,x0,f100 -Q32 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q32_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q32_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q32_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q32_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b4k -%100:r100,w0,x0,f100 -Q32 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q32_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q32_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q32_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q32_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b8k -%100:r100,w0,x0,f100 -Q32 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q32_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q32_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q32_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q32_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b16k -%100:r100,w0,x0,f100 -Q32 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q32_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q32_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q32_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q32_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b32k -%100:r100,w0,x0,f100 -Q32 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q32_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q32_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q32_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q32_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b64k -%100:r100,w0,x0,f100 -Q32 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q32_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q32_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q32_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q32_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b128k -%100:r100,w0,x0,f100 -Q32 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q32_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q32_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q32_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q32_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b256k -%100:r100,w0,x0,f100 -Q32 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q32_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q32_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q32_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q32_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b512k -%100:r100,w0,x0,f100 -Q32 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q32_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q32_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q32_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q32_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b1m -%100:r100,w0,x0,f100 -Q32 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q32_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q32_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q32_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q32_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b512b -%100:r100,w0,x0,f100 -Q64 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q64_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q64_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q64_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q64_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b1k -%100:r100,w0,x0,f100 -Q64 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q64_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q64_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q64_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q64_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b2k -%100:r100,w0,x0,f100 -Q64 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q64_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q64_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q64_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q64_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b4k -%100:r100,w0,x0,f100 -Q64 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q64_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q64_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q64_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q64_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b8k -%100:r100,w0,x0,f100 -Q64 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q64_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q64_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q64_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q64_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b16k -%100:r100,w0,x0,f100 -Q64 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q64_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q64_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q64_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q64_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b32k -%100:r100,w0,x0,f100 -Q64 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q64_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q64_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q64_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q64_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b64k -%100:r100,w0,x0,f100 -Q64 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q64_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q64_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q64_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q64_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b128k -%100:r100,w0,x0,f100 -Q64 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q64_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q64_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q64_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q64_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b256k -%100:r100,w0,x0,f100 -Q64 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q64_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q64_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q64_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q64_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b512k -%100:r100,w0,x0,f100 -Q64 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q64_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q64_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q64_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q64_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b1m -%100:r100,w0,x0,f100 -Q64 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q64_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q64_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q64_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q64_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b512b -%100:r100,w0,x0,f100 -Q128 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q128_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q128_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q128_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q128_R100_W0_B512b_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b1k -%100:r100,w0,x0,f100 -Q128 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q128_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q128_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q128_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q128_R100_W0_B1k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b2k -%100:r100,w0,x0,f100 -Q128 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q128_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q128_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q128_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q128_R100_W0_B2k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b4k -%100:r100,w0,x0,f100 -Q128 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q128_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q128_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q128_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q128_R100_W0_B4k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b8k -%100:r100,w0,x0,f100 -Q128 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q128_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q128_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q128_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q128_R100_W0_B8k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b16k -%100:r100,w0,x0,f100 -Q128 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q128_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q128_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q128_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q128_R100_W0_B16k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b32k -%100:r100,w0,x0,f100 -Q128 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q128_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q128_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q128_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q128_R100_W0_B32k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b64k -%100:r100,w0,x0,f100 -Q128 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q128_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q128_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q128_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q128_R100_W0_B64k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b128k -%100:r100,w0,x0,f100 -Q128 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q128_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q128_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q128_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q128_R100_W0_B128k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b256k -%100:r100,w0,x0,f100 -Q128 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q128_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q128_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q128_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q128_R100_W0_B256k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b512k -%100:r100,w0,x0,f100 -Q128 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q128_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q128_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q128_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q128_R100_W0_B512k_X0_F100_D240_iSCSI_Phase2_Normal.prf
+maim --perf-mode --latency-histogram=50u,100u,200u,500u,1m,2m,5m,10m,15m,20m,30m,50m,100m,200m,500m,1s,2s,4.7s,5s,10s --full-device -x0u -t12p -b1m -%100:r100,w0,x0,f100 -Q128 -d240 -f../config/targets.dat > `date +%y%m%d%H%M%S`_Q128_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.out
+mv WIN-H4HNI7DSO7P.csv  `date +%y%m%d%H%M%S`_Q128_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.csv
+mv WIN-H4HNI7DSO7P.log  `date +%y%m%d%H%M%S`_Q128_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.log
+mv WIN-H4HNI7DSO7P.prf  `date +%y%m%d%H%M%S`_Q128_R100_W0_B1m_X0_F100_D240_iSCSI_Phase2_Normal.prf

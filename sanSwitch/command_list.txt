@@ -1,0 +1,3 @@
+switchshow | grep Port
+portshow 30
+switchshow | grep E-Port

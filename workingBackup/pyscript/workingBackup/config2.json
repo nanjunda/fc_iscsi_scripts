@@ -1,0 +1,31 @@
+{
+	"Switches" : [
+		{
+			"switchName" : "Server_6510",	
+			"mgmtIP" : "10.26.3.194", 
+			"userName" : "admin", 
+			"userPassword" : "password",
+			"flows" : [
+				{ "flowName" : "flowcase1" },
+				{ "flowName" : "flowcase3" }
+			]
+		}
+	],
+
+	"SwitchAttributes" : {
+		"frameSize" : [
+			{ "size" : "1200" },
+			{ "size" : "1400" },
+			{ "size" : "1600" },
+			{ "size" : "1800" },
+			{ "size" : "1900" },
+			{ "size" : "2000" }
+		],
+		"workFlow" : [
+			{ "cmd" : "flow --create FN -feature monitor,generator -bidir -noactivate" },
+			{ "cmd" : "flow --control FN -feature monitor,generator -size SZ" },
+			{ "cmd" : "flow --activate FN" }
+		]	
+	}
+
+}
